@@ -8,3 +8,9 @@ body {
     line-height: 1.5;
     text-align: center;
 }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
