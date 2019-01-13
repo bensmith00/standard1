@@ -11,7 +11,7 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -38,4 +38,32 @@ p {
 .btn:hover {
     background: #eaeaea;
     color: #333;
+}
+
+/* Header Showcase */
+
+#showcase {
+    min-height: 450px;
+    color: rgb(160, 160, 160);
+}
+
+#showcase .bg-image {
+    position: absolute;
+    background: rgb(0, 0, 0) url(img/ai-blur-codes-577585.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+#showcase.content-wrap {
+
 }
